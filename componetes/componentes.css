@@ -1,0 +1,32 @@
+:root {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.divFormularios {
+    width: 60rem;
+    padding: 1rem;
+    margin-top: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    
+}
+.divFormularios .item {
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.item:hover {
+    background-color: mediumaquamarine;
+}
