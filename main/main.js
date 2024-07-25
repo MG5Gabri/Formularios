@@ -10,6 +10,7 @@ let formularios = [
     {nombre:"Login", link:"https:"},
     {nombre:"Login", link:"https:"},
     {nombre:"Login", link:"https:"},
+    {nombre:"Pedido De Compras", link:"componentes/pedidosDeCompras/compras.html"}
 ];
 
 //forEach
