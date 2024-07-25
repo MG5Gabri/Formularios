@@ -9,7 +9,7 @@ let formularios = [
     {nombre:"Login", link:"componetes/login/login.html"},
     {nombre:"Login", link:"https:"},
     {nombre:"Login", link:"https:"},
-    {nombre:"Login", link:"https:"},
+    {nombre:"Busqueda", link:"componentes/deBusqueda/busqueda.html"},
 ];
 
 //forEach
