@@ -8,7 +8,7 @@ div.className = "divFormularios";
 let formularios = [
     {nombre:"Login", link:"componetes/login/login.html"},
     {nombre:"Login", link:"https:"},
-    {nombre:"Login", link:"https:"},
+    {nombre:"Registro", link:"componentes/deRegistro/registro.html"},
     {nombre:"Login", link:"https:"},
 ];
 
