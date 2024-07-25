@@ -7,7 +7,7 @@ div.className = "divFormularios";
 //lista de textos
 let formularios = [
     {nombre:"Login", link:"componetes/login/login.html"},
-    {nombre:"Login", link:"https:"},
+    {nombre:"De Contacto", link:"componentes/fomularioDeContacto/deContacto.html"},
     {nombre:"Login", link:"https:"},
     {nombre:"Login", link:"https:"},
 ];
