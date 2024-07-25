@@ -10,6 +10,8 @@ let formularios = [
     {nombre:"Login", link:"https:"},
     {nombre:"Login", link:"https:"},
     {nombre:"Login", link:"https:"},
+    {nombre:"Login", link:"https:"},
+    {nombre:"Login", link:"componentes/comentariosYReseñas/comentariosReseñas.html"}
 ];
 
 //forEach
