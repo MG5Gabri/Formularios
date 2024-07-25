@@ -1,0 +1,201 @@
+.cajaLogin {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    height: 43rem;
+    margin-top: 3%;
+    border: 2px solid black;
+    
+    display: grid;
+    grid-template-columns: 50rem 1fr;
+}
+.cajaLogin .formularios {
+    height: 30rem;
+    display: grid;
+    padding: 5rem 10rem;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+}
+.cajaLogin .formularios .logo {
+    font-size: 2rem;
+    grid-column: 1/9;
+}
+.cajaLogin .formularios h2 {
+    grid-column: 1/9;
+}
+.spacebtnLW1 {
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+}
+.btnLW1{
+    background-color: rgb(208, 208, 239);
+    width: 7.8rem;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    gap: 0.5rem;
+    border-radius: 3px;
+}
+.imgLogo1{
+    width: 1rem;
+    height: 1rem;
+}
+.imgLogo1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btnLW1 h3{
+    font-size: 11px;
+}
+.spacebtnLW2 {
+    grid-column: 4/7;
+    display: flex;
+    align-items: center;
+}
+.btnLW2{
+    background-color: mediumseagreen;
+    width: 7.8rem;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    gap: 0.8rem;
+    border-radius: 3px;
+}
+.imgLogo2{
+    width: 1rem;
+    height: 1rem;
+}
+.imgLogo2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btnLW2 h3{
+    font-size: 11px;
+}
+.textOr {
+    grid-column: 1/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailAdress{
+    grid-column: 1/7;
+    display: flex;
+    align-items: center;
+}
+.accessEmail {
+    width: 25rem;
+    height: 4.2rem;
+    border-bottom: 2px solid blue;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-rows: 1rem 3rem;
+}
+.accessEmail h4 {
+    color: rgb(64, 63, 63);
+    font-size: 15px;
+}
+.spacepasswordacc{
+    grid-column: 1/7;
+    display: flex;
+    align-items: center;
+}
+.passwordacc {
+    width: 25rem;
+    height: 4.2rem;
+    border-bottom: 2px solid blue;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-rows: 1rem 3rem;
+}
+.accessEmail h4 {
+    color: rgb(64, 63, 63);
+    font-size: 15px;
+}
+.accesopt{
+    height: 2rem;
+    grid-column: 1/7;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.accesopt1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.accesopt1Cuadro {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+}
+.optDeInicio {
+    grid-column: 1/7;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3rem;
+    font-size: 12px;
+}
+.optLogin {
+    background: linear-gradient(
+        to left, 
+        rgb(229, 130, 9), /* Verde con 80% de opacidad */
+        rgb(229, 11, 145),
+        rgb(144, 12, 177)
+
+    );
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0.2rem;
+}
+.optSignUp {
+    border: 2px solid black;
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+.spacePrivacyAndTerms {
+    grid-column: 1/7;
+    display: grid;
+    grid-template-rows: 1rem 1fr;
+    gap: 0.3rem;
+    font-size: 1rem;
+}
+.termsAndPrivacy {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.banner {
+    background: radial-gradient(
+        circle, 
+        rgba(241, 243, 241), /* Verde con 80% de opacidad */
+        rgb(5, 217, 5),
+        rgba(243, 245, 243),
+        rgba(1, 82, 1, 0.987)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+}
