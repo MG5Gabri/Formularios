@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="deContacto.css">
+
 </head>
 <body>
     
-    <h2>Formulario de Contacto en proceso</h2>
+    <form class="contact-form">
+        <h2>Contáctanos</h2>
+        <label for="name">Nombre Completo</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
 
 </body>
 </html>
