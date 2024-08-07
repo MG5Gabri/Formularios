@@ -6,12 +6,12 @@ div.className = "divFormularios";
 
 //lista de textos
 let formularios = [
-    {nombre:"Login", link:"componetes/login/login.html"},
-    {nombre:"Contacto", link:"componentes/fomularioDeContacto/deContacto.html"},
-    {nombre:"Registro", link:"componentes/deRegistro/registro.html"},
-    {nombre:"Busqueda", link:"componentes/deBusqueda/busqueda.html"},
-    {nombre:"Pedido de Compras", link:"componentes/pedidosDeCompras/compras.html"},
-    {nombre:"Comentarios y Reseñas", link:"componentes/comentariosYReseñas/comentariosReseñas.html"}
+    {nombre:"Login", link:"../componetes/login/login.html"},
+    {nombre:"Contacto", link:"../componentes/fomularioDeContacto/deContacto.html"},
+    {nombre:"Registro", link:"../componentes/deRegistro/registro.html"},
+    {nombre:"Busqueda", link:"../componentes/deBusqueda/busqueda.html"},
+    {nombre:"Pedido de Compras", link:"../componentes/pedidosDeCompras/compras.html"},
+    {nombre:"Comentarios y Reseñas", link:"../componentes/comentariosYReseñas/comentariosReseñas.html"}
 ];
 
 //forEach
